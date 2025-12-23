@@ -6,11 +6,11 @@ Git — это незаменимая система контроля верси
 
 ##### Создание, клонирование, перенос и вытягивание репозиториев
 ```git
-git init osukhorukova                                       # Создать локальный репозиторий с именем, совпадающим с вашим GitHub-именем
-git clone git@github.com:osukhorukova/osukhorukova.git      # Склонировать свой репозиторий на компьютер в отдельную папку
+git init KLYKVA69                                           # Создать локальный репозиторий с именем, совпадающим с вашим GitHub-именем
+git clone git@github.com:KLYKVA69/KLYKVA69.git              # Склонировать свой репозиторий на компьютер в отдельную папку
 git clone git@github.com:testrusau/testrusau.git            # Склонировать репозиторий github.com/testrusau/testrusau на компьютер в отдельную папку
 cd testrusau                                                # Перейти в папку testrusau
-git push git@github.com:osukhorukova/testrusau.git main:main  # Отправить данные из репозитория testrusau в свой собственный репозиторий
+git push git@github.com:KLYKVA69/testrusau.git main:main    # Отправить данные из репозитория testrusau в свой собственный репозиторий
 git commit -m "описание внесённых изменений"                # Открыть файл README.md и внести изменения, закоммитив каждую часть отдельно
 git push                                                    # Отправить коммиты в удалённый репозиторий
 ```
@@ -19,8 +19,8 @@ git push                                                    # Отправить
 ##### Создание, добавление удаленных репозиториев
 ```git
 git init sql                                                # Создать отдельный локальный репозиторий для элемента портфолио (например, по SQL)
-git remote add sql https://github.com/osukhorukova/sql.git  # Указать удалённый (remote) репозиторий на GitHub
-# README.md отредактирован вручную                         # Вручную добавить ссылки на свои репозитории в файл README.md
+git remote add sql https://github.com/KLYKVA69/sql.git      # Указать удалённый (remote) репозиторий на GitHub
+# README.md отредактирован вручную                          # Вручную добавить ссылки на свои репозитории в файл README.md
 git add README.md                                           # Добавить изменённый файл в индекс (stage)
 git commit -m "описание внесённых изменений"                # Зафиксировать изменения
 git push sql main                                           # Отправить изменения в удалённый репозиторий
